@@ -18,7 +18,7 @@ header a{
     color: #FCD116;
 }
 footer{
-
+    margin-top: 52px;
     padding: 4px 0;
     height: 88px;
     background-color: #2E2E2E;
@@ -46,21 +46,59 @@ background: linear-gradient(0deg, rgba(206,17,38,1) 4%, rgba(0,56,147,1) 18%, rg
     animation: degrade-animado 7s  infinite alternate ;
 }
 main{
-    height: 500px;
     background-color: white;
+    margin: 42px 0 0 3.6%;
+    display: flex;
+    color: #2E2E2E;
+}
+.text-main{
+    width: 35.13%;
 }
 .text-main h2{
     color: #FCD116;
     font-family: 'Bebas Neue';
-    margin: 6% 0 0 4%;
     background-color: #2E2E2E;
     display: flex;
     width: 130px;
     justify-content: center;
 }
 .text-main p{
-    color: #2E2E2E;
-    margin: 12px 0 0 4%;
+    
+    margin-top: 8px;
+}
+.grid-main{
+    width: 64.87%;
+
+}
+.grid{
+    margin: 0 14.93% 0 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+}
+.item-grid{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    
+    margin: 6px;
+    padding: 20px 16px;
+    text-align: center;
+}
+.grid-main-title{
+    margin: 0 0 6px 7.8%;
+    color: #FCD116;
+    font-family: 'Bebas Neue';
+    background-color: #2E2E2E;
+    display: flex;
+    width: 130px;
+    justify-content: center;
 }
 aside nav{
     height: 65px;
